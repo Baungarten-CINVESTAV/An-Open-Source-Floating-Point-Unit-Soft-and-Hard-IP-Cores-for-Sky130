@@ -116,29 +116,3 @@ The RTL can be compiled with Icarus Verilog:
 ```bash
 iverilog -g2012 -o fpu_sim rtl/*.v
 ```
-
-No testbench or automated simulation suite is currently included.
-
-## Design status
-
-This repository provides the FPU RTL and an initial synthesis result. Before production use, validate:
-
-- IEEE 754 rounding and subnormal behavior
-- Pipeline-cycle alignment under `en` and `arst`
-- Exception timing and flag generation
-- Formal and randomized test coverage
-- Physical implementation and post-place-and-route timing
-
-## License
-
-No license file is currently included. Add a license before redistributing or integrating the IP into other projects.
-
-## Citation
-
-If you use this work in academic research, cite the repository and its contributing authors:
-
-- Daniel
-- Lino
-- Kevin
-- Emmanuel
-- CINVESTAV
