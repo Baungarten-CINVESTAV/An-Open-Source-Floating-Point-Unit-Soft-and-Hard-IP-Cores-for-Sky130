@@ -35,7 +35,6 @@ static_timing_analysis/
 - Guard, round, and sticky rounding information
 - Overflow, underflow, inexact, invalid, and divide-by-zero flags
 - Handling for zero, infinity, and NaN operands
-- Sky130 synthesis and static timing scripts
 - 23-stage pipelining between the arithmetic datapaths and top-level output
 
 ## Interface
